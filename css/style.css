@@ -1,0 +1,35 @@
+.fixed {
+    height: 100px;
+    width: 100px;
+    left: 0;
+    top: 0;
+    position: fixed;
+    background: red;
+}
+
+body {
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 150vh;
+}
+
+.outside {
+    top: 40px;
+    position: relative;
+    height: 400px;
+    background-color: gray;
+}
+
+.inside {
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    top: 50%;
+    left: 50%;
+    background-color: orange;
+    transform: translate(-50%,-50%)
+}
+
+.sub-text {
+    margin-top: 60px;
+}
